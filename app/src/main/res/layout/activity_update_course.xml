@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/employee"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateCourseActivity">
+    <EditText
+        android:id="@+id/idEdtName"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefg hijklmnopqrstuvwxyz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Employee name" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/idEdtDesign"
+        android:layout_width="match_parent"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkl mnopqrstuvwxyz"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Designation" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/idEdtDepart"
+        android:layout_width="match_parent"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmno pqrstuvwxyz"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Department" />
+
+
+
+
+    <!--edit text for course description-->
+
+
+    <!--button for updating our course-->
+    <Button
+        android:id="@+id/idBtnUpdateCourse"
+        android:layout_width="match_parent"
+        android:background="@color/purple_200"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update employee details"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="Delete"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

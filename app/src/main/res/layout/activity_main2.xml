@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/employee"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/idEdtName"
+        android:textColor="#3BE81C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz "
+        android:layout_margin="10dp"
+        android:hint="Employee name" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/idEdtDesignation"
+        android:textColor="#3BE81C"
+        android:layout_width="match_parent"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef ghijklmnopqrstuvwxyz  "
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Designation" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/idEdtDepartment"
+        android:textColor="#3BE81C"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcde fghijklmnopqrstuvwxyz"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Department" />
+
+    <!--edit text for course description-->
+
+    <!--button for adding new course-->
+    <Button
+        android:id="@+id/idBtnAddCourse"
+        android:layout_width="match_parent"
+        android:background="#51E457"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add employee"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
